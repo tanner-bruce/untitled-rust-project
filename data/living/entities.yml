@@ -1,0 +1,33 @@
+---
+entries:
+  # trees
+  - name: Birch Tree
+    id: birch_tree
+    description: |
+      A birch tree. What did you expect?
+    race: Tree
+    path: tree.gltf
+
+  # things
+  - name: Spherical Worker
+    id: sphere_worker
+    description: |
+      Does it like a circle would, except better.
+    race: Shape
+    path: sphere.gltf
+
+# people
+#- name: Human
+#  id: human
+#  description: |
+#    A human
+#  race: Human
+#  model: human.gltf
+#
+#- name: Human
+#  id: human
+#  description: |
+#    A human
+#  race: Human
+#  model: human.gltf
+#

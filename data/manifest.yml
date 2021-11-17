@@ -1,0 +1,8 @@
+---
+entries:
+- path: data/buildings.yml
+  kind: BuildingData
+- path: data/living/races.yml
+  kind: RaceData
+- path: data/living/entities.yml
+  kind: LivingData

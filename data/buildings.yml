@@ -1,0 +1,67 @@
+---
+entries:
+### construction
+- name: Wall
+  id: wall
+  path: tree.gltf
+  base_hp: 80
+  base_time: 300
+  dims: [1, 1, 1]
+  cost:
+  - name: blocks
+    value: 2
+  - name: poles
+    value: 2
+
+- name: Workbench
+  id: basic_workbench
+  path: tree.gltf
+  caps:
+    - { name: dissassembly, level: 1 }
+    - { name: fabricating, level: 1 }
+  properties:
+    - Usable
+  base_hp: 40
+  base_time: 300
+  dims: [2, 1, 1]
+  cost:
+    - name: blocks
+      value: 2
+    - name: poles
+      value: 2
+
+- name: Small Spotlight
+  id: spotlight_small
+  path: tree.gltf
+  effects:
+    - {name: Luminescent, value: 20}
+  properties:
+    - Toggleable
+    - Powered
+  power_used: 120
+  base_hp: 10
+  base_time: 300
+  dims: [3, 1, 1]
+  cost:
+    - name: blocks
+      value: 2
+    - name: poles
+      value: 2
+#- name: Reinforced Wall
+#  id: reinforced_wall
+#  path: buildings/wall
+#  file: wall_reinforced_{mat}.gltf
+#  base_hp: 100
+#  base_time: 1000
+#  cost:
+#  - name: blocks
+#    value: 10
+#  - name: poles
+#    value: 4
+#- name: Flooring
+#  id: floor
+#  path: buildings/floor
+#  file: basic_{mat}.gltf
+#  #file: basic_{mat}_{variety}.gltf
+#  base_hp: 100
+#  base_time: 300

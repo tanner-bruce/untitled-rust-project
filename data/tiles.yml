@@ -1,0 +1,5 @@
+---
+entries:
+  - name: Grass
+    path: ground.gltf
+    z: 1

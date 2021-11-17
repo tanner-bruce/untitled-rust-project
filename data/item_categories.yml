@@ -1,0 +1,30 @@
+---
+kind: Categories
+entries:
+  - name: Equipment
+    description: |
+      Clothing, Armor, and anything equipable
+  - name: Prosthetic
+    description: |
+      Replacement Body Parts
+  - name: Bionic
+    description: |
+      Embeddable Devices
+  - name: Construction Materials
+    description: |
+      Construction Materials
+  - name: Vehicle
+    description: |
+      Vehicles
+
+
+  # subcategories
+  - name: Clothing
+    description: It's what you wear
+    parent: Equipment
+
+  - name: Footwear
+    description: It's what your feet need
+    parents:
+    - Clothing
+    target: Feet

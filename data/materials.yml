@@ -1,0 +1,12 @@
+---
+kind: MaterialData
+entries:
+  - name: Synthetic Biosteel
+    properties:
+      - { attr: Damage, value: [15, 25] }
+      - { attr: Durabillity, value: [15, 25] }
+      - { attr: Weight, value: [-15, -25] }
+
+  - name: Prismatized Light
+
+  - name: Formed Strings

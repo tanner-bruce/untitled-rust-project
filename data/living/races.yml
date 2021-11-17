@@ -1,0 +1,9 @@
+---
+entries:
+  - name: Shape
+    description: What a weird race.
+    properties:
+      - Orderable
+      - Living
+  - name: Tree
+    description: They got what animals need.

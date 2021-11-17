@@ -1,0 +1,38 @@
+---
+entries:
+  - name: Athlete
+    description: |
+      {name} has been a natural athlete since birth.
+    modifiers:
+      - { skill: strength, value: 1}
+      - { skill: dexterity, value: 1}
+      - { skill: constitution, value: 1}
+  - name: Mechanically Inclined
+    description: |
+      Being drawn to mechanics since an early age, {name} is particularly good at construction and fabrication, but for some
+      reason keeps dropping nuts and bolts in unfortunate places.
+    modifiers:
+      - { skill: construction, value: 2}
+      - { skill: fabrication, value: 2}
+      - { attr: dexterity, value: 2}
+      - { attr: luck, value: -1}
+  - name: Clever
+    description: |
+      {name} is particularly clever.
+    modifiers:
+      - { attr: intelligence, value: 2}
+      - { attr: luck, value: 1}
+  - name: Lucky
+    description: |
+      {name} has been finding money on the ground since childhood.
+    modifiers:
+      - { attr: luck, value: 3}
+  - name: Oddly Large
+    description: |
+      {name}, at {height} and {weight} and simply large.
+    modifiers:
+      - { attr: size, value: 5}
+      - { attr: strength, value: 4}
+      - { attr: consitution, value: 2}
+      - { attr: dexterity, value: -1}
+      - { attr: agility, value: -2}
